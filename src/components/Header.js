@@ -11,7 +11,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse">
                         <div className="navbar-nav">
                             {/* Logo image source: https://pixabay.com/illustrations/mandala-art-design-pattern-1063250/ */}
-                            <img src={logo} width="45" height="45" />
+                            <img src={logo} width="45" height="45" alt="site logo" />
                             <Link to="/" className="nav-link">Home</Link>
                             <Link to="/packages" className="nav-link">Packages</Link>
                             <Link to="/products" className="nav-link">Products</Link>

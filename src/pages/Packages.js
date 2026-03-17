@@ -79,7 +79,7 @@ class Packages extends Component {
                         {/* If clicked, adds the price of the massage to the total */}
                         <Card id="massage-card" color="white" onClick={this.incrementTotalForMassage}>
                             {/* Display the image of the card passed from the packages object */}
-                            <img src={packagesObject[0].image} width="200" length="200" />
+                            <img src={packagesObject[0].image} width="200" length="200" alt="massage" />
                             {/* Display the message of the card made up of the name and price attributes passed from the packages object */}
                             <p>{packagesObject[0].name}: ${packagesObject[0].price}</p>
                         </Card>
@@ -89,7 +89,7 @@ class Packages extends Component {
                         {/* If clicked, adds the price of the pedicure to the total */}
                         <Card id="pedicure-card" color="white" onClick={this.incrementTotalForPedicure}>
                             {/* Display the image of the card passed from the packages object */}
-                            <img src={packagesObject[1].image} width="200" length="200" />
+                            <img src={packagesObject[1].image} width="200" length="200" alt="pedicure" />
                             {/* Display the message of the card made up of the name and price attributes passed from the packages object */}
                             <p>{packagesObject[1].name}: ${packagesObject[1].price}</p>
                         </Card>
@@ -99,7 +99,7 @@ class Packages extends Component {
                         {/* If clicked, adds the price of the manicure to the total */}
                         <Card id="manicure-card" color="white" onClick={this.incrementTotalForManicure}>
                             {/* Display the image of the card passed from the packages object */}
-                            <img src={packagesObject[2].image} width="200" length="200" />
+                            <img src={packagesObject[2].image} width="200" length="200" alt="manicure" />
                             {/* Display the message of the card made up of the name and price attributes passed from the packages object */}
                             <p>{packagesObject[2].name}: ${packagesObject[2].price}</p>
                         </Card>

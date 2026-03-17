@@ -7,7 +7,7 @@ const Home = () => {
     return(
         <div>
             {/* Spa image source: https://unsplash.com/photos/ZbzYDboN7fg */}
-            <img src={spa} width="500" height="500" />
+            <img src={spa} width="500" height="500" alt="hot stones" />
             <br/>
             <br/>
             {/* Introductory message for the home page */}

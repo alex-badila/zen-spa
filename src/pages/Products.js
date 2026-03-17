@@ -150,7 +150,7 @@ class Products extends Component {
                         {/* If clicked, adds the price of the essential oil kit to the subtotal, and then calculates the total */}
                         <Card id="essential-oil-kit-card" color="green" onClick={this.incrementTotalsForEssentialOilKit}>
                             {/* Display the image of the card passed from the products object */}
-                            <img src={productsObject[0].image} width="200" length="200" />
+                            <img src={productsObject[0].image} width="200" length="200" alt="essential oil kit" />
                             {/* Display the message of the card made up of the name and price attributes passed from the products object */}
                             <p>{productsObject[0].name}: ${productsObject[0].price}</p>
                         </Card>
@@ -160,7 +160,7 @@ class Products extends Component {
                         {/* If clicked, adds the price of the face cream to the subtotal, and then calculates the total */}
                         <Card id="face-cream-card" color="lavender"  onClick={this.incrementTotalsForFaceCream}>
                             {/* Display the image of the card passed from the products object */}
-                            <img src={productsObject[1].image} width="200" length="200" />
+                            <img src={productsObject[1].image} width="200" length="200" alt="face cream" />
                             {/* Display the message of the card made up of the name and price attributes passed from the products object */}
                             <p>{productsObject[1].name}: ${productsObject[1].price}</p>
                         </Card>
@@ -170,7 +170,7 @@ class Products extends Component {
                         {/* If clicked, adds the price of the massage oil to the subtotal, and then calculates the total */}
                         <Card id="massage-oil-card" color="red" onClick={this.incrementTotalsForMassageOil}>
                             {/* Display the image of the card passed from the products object */}
-                            <img src={productsObject[2].image} width="200" length="200" />
+                            <img src={productsObject[2].image} width="200" length="200" alt="massage oil" />
                             {/* Display the message of the card made up of the name and price attributes passed from the products object */}
                             <p>{productsObject[2].name}: ${productsObject[2].price}</p>
                         </Card>
@@ -180,7 +180,7 @@ class Products extends Component {
                         {/* If clicked, adds the price of the hand cream to the subtotal, and then calculates the total */}
                         <Card id="hand-cream-card" color="yellow" onClick={this.incrementTotalsForHandCream}>
                             {/* Display the image of the card passed from the products object */}
-                            <img src={productsObject[3].image} width="200" length="200" />
+                            <img src={productsObject[3].image} width="200" length="200" alt="hand cream" />
                             {/* Display the message of the card made up of the name and price attributes passed from the products object */}
                             <p>{productsObject[3].name}: ${productsObject[3].price}</p>
                         </Card>
