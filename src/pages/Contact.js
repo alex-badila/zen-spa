@@ -46,12 +46,7 @@ class Contact extends Component {
         // Perform object destructuring on the state to obtain the different form field values
         const {name, typeOfService, phoneNumber, message} = this.state;
 
-        console.log({
-            name,
-            typeOfService,
-            phoneNumber,
-            message
-        });
+        alert(`Your name is ${name} and you have booked a ${typeOfService}. Your phone number is ${phoneNumber} and you had this to say: ${message}`);
 
         this.setState({
             name: '',
