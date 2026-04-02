@@ -16,13 +16,13 @@ const Home = () => {
             {/* Green button linking to the Packages page */}
             {/* The style component was modified so that the Button does not have an underline from the link component */}
             <Link to="/packages" style={{textDecoration: 'none'}}>
-                <Button id="massage-button" color="green">Book a Massage Today!</Button>
+                <Button id="massage-button" color="green">Book A Service Today!</Button>
             </Link>
             <br/>
             {/* Salmon button linking to the Products page */}
             {/* The style component was modified so that the Button does not have an underline from the link component */}
             <Link to="/products" style={{textDecoration: 'none'}}>
-                <Button id="products-button" color="salmon">Buy our Products!</Button>
+                <Button id="products-button" color="salmon">Buy Our Products!</Button>
             </Link>
             <br/>
         </div>
